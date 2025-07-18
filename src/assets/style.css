@@ -1,0 +1,52 @@
+:root {
+	--shade-700: #1a1a1a;
+	--shade-600: #444444;
+	--shade-500: #52525b;
+	--shade-400: #a1a1aa;
+	--shade-300: #e1e1e2;
+	--shade-200: #f4f4f5;
+	--shade-100: #ffffff;
+
+	--red-300: #dc2828;
+	--red-200: #ff6565;
+	--red-100: #ffc9c9;
+
+	--purple-100: #5048e5;
+
+	--blue-200: #6a6df7;
+	--blue-100: #a9b7ff;
+}
+
+*,
+*:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+	height: 100dvh;
+	color: var(--shade-700);
+  background-color: var(--shade-100);
+}
+
+.reset-button{
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+
+  color: inherit;
+  font: inherit;
+
+  line-height: normal;
+
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  -webkit-appearance: none;
+}
